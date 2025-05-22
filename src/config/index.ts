@@ -11,7 +11,7 @@ export const config = {
   llm: {
     anthropic: {
       apiKey: process.env.ANTHROPIC_API_KEY || '',
-      model: 'claude-3-7-sonnet-20250219', // You can adjust the model based on your needs
+      model: 'claude-opus-4-20250514', // You can adjust the model based on your needs
     },
     openai: {
       apiKey: process.env.OPENAI_API_KEY || '',
