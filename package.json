@@ -1,0 +1,37 @@
+{
+  "name": "telebot-multimodal-llm",
+  "version": "1.0.0",
+  "description": "Telegram bot that processes images with multiple LLMs: Claude, GPT-4o, and Gemini",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsc --build && node dist/index.js",
+    "build": "tsc --build",
+    "start": "node dist/index.js",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "multimodal",
+    "llm",
+    "claude",
+    "gpt4",
+    "gemini"
+  ],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.1",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.51.0",
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "form-data": "^4.0.2",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.102.0",
+    "telegraf": "^4.16.3"
+  }
+}
